@@ -53,7 +53,8 @@ export class Directory extends Component {
                 {
                     this.state.sections.map(({ id, ...otherSectionProps }) => (
                         <MenuItem 
-                            key={id} {...otherSectionProps} />
+                            key={id} {...otherSectionProps} 
+                        />
                     ))
                 }
             </div>
